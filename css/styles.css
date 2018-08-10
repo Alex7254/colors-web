@@ -13,10 +13,7 @@ body {
 }
 
 .top-bg {
-  background: url('../img/colorsbg.png') no-repeat center center ;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url('../img/colorsbg.png') no-repeat center center ;
   background-size: cover;
   height: 100vh;
 }
