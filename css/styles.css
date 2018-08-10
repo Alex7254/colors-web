@@ -1,0 +1,406 @@
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: #F7F3E3;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  /* border: solid green 1px; */
+}
+
+.top-bg {
+  background: url('../img/colorsbg.png') no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.top {
+  width: 100%;
+  height: 60px;
+  /* border: solid 1px purple; */
+}
+
+.logo-area {
+  /* width: 40px; */
+  /* width: 10px; */
+  /* margin-top: 20px; */
+  margin: 15px;
+  /* float: left; */
+  display: inline-block;
+  /* border: solid red 1px; */
+}
+
+nav {
+  width: 100%;
+  /* border: solid 1px red; */
+  margin-top: 20px;
+  display: inline-block;
+  position: fixed;
+  /* height: 37px; */
+}
+
+ul {
+  margin: auto;
+  width: 400px;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  color: #363635;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.two-btn-area {
+  /* width: 50%; */
+  /* border: solid 1px green; */
+  float: right;
+  margin-top: 10px;
+}
+
+.two-btn-area button{
+  /* float: right; */
+  margin: 0 8px;
+  width: 95px;
+}
+
+.landing {
+  width: 100%;
+  height: 100vh;
+  /* border: solid 1px orange; */
+  text-align: center;
+}
+
+.landing-inner {
+  width: 560px;
+  margin: 100px auto 0;
+  /* border: solid cyan 1px; */
+}
+
+.landing-inner h1 {
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.landing-inner p {
+  font-size: 17px;
+  margin-bottom: 60px;
+  color: #363635;
+}
+
+.landing-inner button {
+  height: 35px;
+  /* width: 95px; */
+  border-radius: 25px;
+}
+
+.btn-dark {
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  text-transform: capitalize;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  height: 35px;
+  /* width: 95px; */
+  border-radius: 25px;
+}
+
+.btn-light {
+  font-weight: 700;
+  border: solid 2px #000;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  height: 35px;
+  border-radius: 25px;
+}
+
+
+
+
+/* Features Styling */
+.features {
+  width: 100%;
+  /* border: solid 1px darkcyan; */
+  height: 510px;
+  display: flex;
+  margin-top: 80px;
+  border-bottom: solid 1px #d4d4d6;
+}
+
+.feature-box {
+  /* border: solid red 1px; */
+  text-align: center;
+}
+
+.feature-box img{
+  height: 320px;
+  width: 320px;
+  display: block;
+  margin: auto;
+}
+
+.feature-box .image-area {
+  /* border: solid 1px yellow; */
+  height: 300px;
+}
+
+.feature-box h1 {
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: #363635;
+}
+
+.feature-box p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #9E9E9E;
+  line-height: 22px;
+  margin: 0 20px;
+}
+
+
+
+
+/* About us styling */
+.about-us {
+  width: 100%;
+  height: 740px;
+  display: flex;
+  /* border: solid 1px red; */
+  padding: 8px;
+  margin-top: 50px;
+  border-bottom: solid 1px #d4d4d6;
+}
+
+.about-us .about-img{
+  background: url('../img/about-img.jpeg') no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 50%;
+  height: 450px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.half-desc {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 7px;
+}
+
+.half-desc h1 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.half-desc p {
+  font-size: 17px;
+  color: #9E9E9E;
+  margin: 0 7px 60px;
+  word-spacing: 2px;
+  line-height: 22px;
+}
+
+.half-desc button {
+  width: 95px;
+}
+
+
+
+/* START TESTIMONIAL STYLING */
+.testimonials {
+  width: 100%;
+  height: 740px;
+  display: flex;
+  padding: 8px;
+  /* border: solid red 1px; */
+  border-bottom: solid 1px #d4d4d6;
+}
+
+.testionials .half-desc {
+  width: 50%;
+}
+
+.testimonials .test-img {
+  background: url('../img/test-img.jpg') no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 50%;
+  height: 450px;
+  margin: auto;
+  border-radius: 5px;
+  margin: auto;
+  /* border: solid red 1px; */
+}
+
+
+
+
+/* Contact form styling */
+.contact {
+  width: 100%;
+  height: 700px;
+  /* border: solid red 1px; */
+  text-align: center;
+}
+
+.contact-inner {
+  width: 60%;
+  /* border: solid 1px green; */
+  margin:  100px auto 0;
+  height: 500px;
+}
+
+.contact-inner h1 {
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.names {
+  width: 100%;
+  /* border: solid 1px purple; */
+  margin-top: 40px;
+}
+
+.info {
+  border: none;
+  border-bottom: solid 1px #000;
+  padding-bottom: 5px;
+  display: block;
+  margin: 20px auto 45px;
+  width: 40%;
+  outline: none;
+  background: #F7F3E3;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 17px;
+}
+
+.message {
+  width: 100%;
+  /* border: solid 1px orange; */
+
+}
+
+.text-box {
+  min-width:40%;
+  max-width: 40%;
+  max-height: 240px;
+  min-height: 180px;
+  display: inline-block;
+  border: solid 1px #000;
+  outline: none;
+  background: #F7F3E3;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  padding: 5px;
+  font-size: 17px;
+  word-spacing: 2px;
+}
+
+.contact-inner button {
+  margin-top: 45px;
+}
+
+
+
+
+
+/* Footer Styling*/
+
+footer {
+  width: 100%;
+  /* border: solid 1px red; */
+  padding-top: 5px;
+  height: 200px;
+  background: #222;
+}
+
+.footer-sub {
+  width: 100%;
+  height: 60px;
+  /* border: solid 1px green; */
+  text-align: center;
+  margin-top: 25px;
+}
+
+.footer-sub h1 {
+  color: #fff;
+  text-transform: capitalize;
+  word-spacing: 3px;
+  font-size: 21px;
+  display: inline-block;
+  margin: 15px 35px 0 0;
+}
+
+.subs-em {
+  border: none;
+  border-bottom: solid 1px #fff;
+  outline: none;
+  background: none;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 17px;
+  width: 170px;
+  padding: 5px;
+  color: #fff;
+}
+
+.footer-sub button {
+  font-weight: 700;
+  border: solid 2px #fff;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  height: 35px;
+  border-radius: 25px;
+  width: 90px;
+  margin-left: 40px;
+}
+
+footer .social {
+  /* border: solid 1px green; */
+  /* width: 100px; */
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social i{
+ color: #fff;
+ margin-left: 10px;
+ padding: 10px;
+ cursor: pointer;
+}
